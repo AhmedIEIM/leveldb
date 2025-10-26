@@ -1,0 +1,428 @@
+[
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\builder.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\builder.cc",
+  "file": "D:/a/leveldb/leveldb/db/builder.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/builder.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\c.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\c.cc",
+  "file": "D:/a/leveldb/leveldb/db/c.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/c.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\db_impl.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\db_impl.cc",
+  "file": "D:/a/leveldb/leveldb/db/db_impl.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/db_impl.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\db_iter.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\db_iter.cc",
+  "file": "D:/a/leveldb/leveldb/db/db_iter.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/db_iter.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\dbformat.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\dbformat.cc",
+  "file": "D:/a/leveldb/leveldb/db/dbformat.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/dbformat.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\dumpfile.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\dumpfile.cc",
+  "file": "D:/a/leveldb/leveldb/db/dumpfile.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/dumpfile.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\filename.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\filename.cc",
+  "file": "D:/a/leveldb/leveldb/db/filename.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/filename.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\log_reader.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\log_reader.cc",
+  "file": "D:/a/leveldb/leveldb/db/log_reader.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/log_reader.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\log_writer.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\log_writer.cc",
+  "file": "D:/a/leveldb/leveldb/db/log_writer.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/log_writer.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\memtable.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\memtable.cc",
+  "file": "D:/a/leveldb/leveldb/db/memtable.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/memtable.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\repair.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\repair.cc",
+  "file": "D:/a/leveldb/leveldb/db/repair.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/repair.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\table_cache.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\table_cache.cc",
+  "file": "D:/a/leveldb/leveldb/db/table_cache.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/table_cache.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\version_edit.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\version_edit.cc",
+  "file": "D:/a/leveldb/leveldb/db/version_edit.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/version_edit.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\version_set.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\version_set.cc",
+  "file": "D:/a/leveldb/leveldb/db/version_set.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/version_set.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\db\\write_batch.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\write_batch.cc",
+  "file": "D:/a/leveldb/leveldb/db/write_batch.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/db/write_batch.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\block_builder.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\block_builder.cc",
+  "file": "D:/a/leveldb/leveldb/table/block_builder.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/block_builder.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\block.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\block.cc",
+  "file": "D:/a/leveldb/leveldb/table/block.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/block.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\filter_block.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\filter_block.cc",
+  "file": "D:/a/leveldb/leveldb/table/filter_block.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/filter_block.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\format.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\format.cc",
+  "file": "D:/a/leveldb/leveldb/table/format.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/format.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\iterator.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\iterator.cc",
+  "file": "D:/a/leveldb/leveldb/table/iterator.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/iterator.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\merger.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\merger.cc",
+  "file": "D:/a/leveldb/leveldb/table/merger.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/merger.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\table_builder.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\table_builder.cc",
+  "file": "D:/a/leveldb/leveldb/table/table_builder.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/table_builder.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\table.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\table.cc",
+  "file": "D:/a/leveldb/leveldb/table/table.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/table.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\table\\two_level_iterator.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\two_level_iterator.cc",
+  "file": "D:/a/leveldb/leveldb/table/two_level_iterator.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\arena.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\arena.cc",
+  "file": "D:/a/leveldb/leveldb/util/arena.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/arena.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\bloom.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\bloom.cc",
+  "file": "D:/a/leveldb/leveldb/util/bloom.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/bloom.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\cache.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\cache.cc",
+  "file": "D:/a/leveldb/leveldb/util/cache.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/cache.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\coding.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\coding.cc",
+  "file": "D:/a/leveldb/leveldb/util/coding.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/coding.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\comparator.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\comparator.cc",
+  "file": "D:/a/leveldb/leveldb/util/comparator.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/comparator.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\crc32c.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\crc32c.cc",
+  "file": "D:/a/leveldb/leveldb/util/crc32c.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/crc32c.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\env.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\env.cc",
+  "file": "D:/a/leveldb/leveldb/util/env.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/env.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\filter_policy.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\filter_policy.cc",
+  "file": "D:/a/leveldb/leveldb/util/filter_policy.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/filter_policy.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\hash.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\hash.cc",
+  "file": "D:/a/leveldb/leveldb/util/hash.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/hash.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\logging.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\logging.cc",
+  "file": "D:/a/leveldb/leveldb/util/logging.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/logging.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\options.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\options.cc",
+  "file": "D:/a/leveldb/leveldb/util/options.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/options.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\status.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\status.cc",
+  "file": "D:/a/leveldb/leveldb/util/status.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/status.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\util\\env_windows.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\env_windows.cc",
+  "file": "D:/a/leveldb/leveldb/util/env_windows.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/util/env_windows.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb.dir\\helpers\\memenv\\memenv.cc.obj -c D:\\a\\leveldb\\leveldb\\helpers\\memenv\\memenv.cc",
+  "file": "D:/a/leveldb/leveldb/helpers/memenv/memenv.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldbutil.dir\\db\\leveldbutil.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\leveldbutil.cc",
+  "file": "D:/a/leveldb/leveldb/db/leveldbutil.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\status_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\status_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/status_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/status_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\no_destructor_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\no_destructor_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/no_destructor_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\testutil.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\testutil.cc",
+  "file": "D:/a/leveldb/leveldb/util/testutil.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/testutil.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\autocompact_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\autocompact_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/autocompact_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\corruption_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\corruption_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/corruption_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\db_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\db_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/db_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/db_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\dbformat_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\dbformat_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/dbformat_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\filename_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\filename_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/filename_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/filename_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\log_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\log_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/log_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/log_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\recovery_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\recovery_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/recovery_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\skiplist_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\skiplist_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/skiplist_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\version_edit_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\version_edit_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/version_edit_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\version_set_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\version_set_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/version_set_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\db\\write_batch_test.cc.obj -c D:\\a\\leveldb\\leveldb\\db\\write_batch_test.cc",
+  "file": "D:/a/leveldb/leveldb/db/write_batch_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\helpers\\memenv\\memenv_test.cc.obj -c D:\\a\\leveldb\\leveldb\\helpers\\memenv\\memenv_test.cc",
+  "file": "D:/a/leveldb/leveldb/helpers/memenv/memenv_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\table\\filter_block_test.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\filter_block_test.cc",
+  "file": "D:/a/leveldb/leveldb/table/filter_block_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\table\\table_test.cc.obj -c D:\\a\\leveldb\\leveldb\\table\\table_test.cc",
+  "file": "D:/a/leveldb/leveldb/table/table_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/table/table_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\arena_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\arena_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/arena_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/arena_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\bloom_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\bloom_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/bloom_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\cache_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\cache_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/cache_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/cache_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\coding_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\coding_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/coding_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/coding_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\crc32c_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\crc32c_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/crc32c_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\hash_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\hash_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/hash_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/hash_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\leveldb_tests.dir\\util\\logging_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\logging_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/logging_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/leveldb_tests.dir/util/logging_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\c_test.dir\\util\\testutil.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\testutil.cc",
+  "file": "D:/a/leveldb/leveldb/util/testutil.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/c_test.dir/util/testutil.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\cc.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -Wstrict-prototypes -O3 -DNDEBUG -std=c11 -o CMakeFiles\\c_test.dir\\db\\c_test.c.obj -c D:\\a\\leveldb\\leveldb\\db\\c_test.c",
+  "file": "D:/a/leveldb/leveldb/db/c_test.c",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/c_test.dir/db/c_test.c.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\env_windows_test.dir\\util\\testutil.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\testutil.cc",
+  "file": "D:/a/leveldb/leveldb/util/testutil.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/env_windows_test.dir/util/testutil.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DLEVELDB_PLATFORM_WINDOWS=1 -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\env_windows_test.dir\\util\\env_windows_test.cc.obj -c D:\\a\\leveldb\\leveldb\\util\\env_windows_test.cc",
+  "file": "D:/a/leveldb/leveldb/util/env_windows_test.cc",
+  "output": "D:/a/leveldb/leveldb/build/CMakeFiles/env_windows_test.dir/util/env_windows_test.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/third_party/googletest/googlemock/include -ID:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-missing-field-initializers -o third_party\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\a\\leveldb\\leveldb\\third_party\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/a/leveldb/leveldb/third_party/googletest/googlemock/src/gmock-all.cc",
+  "output": "D:/a/leveldb/leveldb/build/third_party/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googlemock -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o third_party\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\a\\leveldb\\leveldb\\third_party\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/a/leveldb/leveldb/third_party/googletest/googlemock/src/gmock_main.cc",
+  "output": "D:/a/leveldb/leveldb/build/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -ID:/a/leveldb/leveldb/third_party/googletest/googletest/include -ID:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-missing-field-initializers -o third_party\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\a\\leveldb\\leveldb\\third_party\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "D:/a/leveldb/leveldb/third_party/googletest/googletest/src/gtest-all.cc",
+  "output": "D:/a/leveldb/leveldb/build/third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/a/leveldb/leveldb/build",
+  "command": "D:\\a\\_temp\\msys64\\mingw64\\bin\\c++.exe -DUNICODE -D_UNICODE -ID:/a/leveldb/leveldb/build/include -ID:/a/leveldb/leveldb/. -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest/include -isystem D:/a/leveldb/leveldb/third_party/googletest/googletest  -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o third_party\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\a\\leveldb\\leveldb\\third_party\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "D:/a/leveldb/leveldb/third_party/googletest/googletest/src/gtest_main.cc",
+  "output": "D:/a/leveldb/leveldb/build/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
