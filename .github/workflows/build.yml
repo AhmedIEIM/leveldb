@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, master, develop, 'releases/**' ]
     paths-ignore:
-      - 'compile_commands/**'   # prevent CI loop when we commit compile_commands.json
+      - 'compile_commands/**'
   pull_request:
     types: [ opened, synchronize, reopened ]
 
@@ -17,7 +17,7 @@ jobs:
     runs-on: windows-latest
     defaults:
       run:
-        shell: msys2 {0}   # cmake/ninja/strip/objcopy come from /mingw64/bin
+        shell: msys2 {0}
 
     env:
       BUILD_DIR: build
@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          submodules: true    # LevelDB uses third_party/googletest
+          submodules: true
 
       - name: Install MSYS2 toolchain
         uses: msys2/setup-msys2@v2
@@ -51,6 +51,7 @@ jobs:
           -DLEVELDB_BUILD_BENCHMARKS=ON
           -DBUILD_SHARED_LIBS=OFF
           -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+          -DCMAKE_CXX_STANDARD=17
 
       - name: Build
         run: cmake --build "${BUILD_DIR}" --config Release -j2
@@ -58,7 +59,6 @@ jobs:
       - name: Test
         run: ctest --output-on-failure -C Release --test-dir "${BUILD_DIR}"
 
-      # --- Produce full & stripped bundles for Ghidra ---
       - name: Package (full + stripped + symbols)
         run: |
           set -euo pipefail
@@ -67,27 +67,21 @@ jobs:
           mkdir -p out/stripped/bin out/stripped/lib
           mkdir -p out/symbols
 
-          # Headers
           [ -d include/leveldb ] && cp -R include/leveldb/* out/full/include/leveldb/ || true
 
-          # Libraries (static/shared) from the build tree (skip CMakeFiles)
           find "${BUILD_DIR}" -maxdepth 3 -type f -not -path '*/CMakeFiles/*' \
             \( -name 'libleveldb*.a' -o -name 'leveldb*.a' -o -iname 'leveldb*.dll' -o -iname 'leveldb*.lib' \) \
             -exec cp -f {} out/full/lib/ \; || true
 
-          # Binaries (tests/bench/utils)
           find "${BUILD_DIR}" -type f -not -path '*/CMakeFiles/*' \
             \( -iname '*.exe' -o -iname '*.dll' \) \
             -exec cp -f {} out/full/bin/ \; || true
 
-          # Stripped copies start from full
           cp -f out/full/lib/* out/stripped/lib/ 2>/dev/null || true
           cp -f out/full/bin/* out/stripped/bin/ 2>/dev/null || true
 
-          # Strip static libs (remove DWARF)
           find out/stripped/lib -type f -name '*.a' -exec strip -g {} \; || true
 
-          # Strip EXE/DLL & create separate .debug files (GNU style)
           shopt -s nullglob
           for f in out/stripped/bin/*.exe out/stripped/bin/*.dll; do
             base="$(basename "$f")"
@@ -130,7 +124,6 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      # --- Auto-commit compile_commands.json (robust when unchanged) ---
       - name: Commit compile_commands.json into repo
         if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/')
         shell: pwsh
@@ -139,32 +132,19 @@ jobs:
           BUILD_DIR: ${{ env.BUILD_DIR }}
         run: |
           $ErrorActionPreference = "Stop"
-
           $src = Join-Path $env:GITHUB_WORKSPACE "$env:BUILD_DIR\compile_commands.json"
-          if (!(Test-Path $src)) {
-            Write-Host "compile_commands.json not found at $src"
-            exit 0
-          }
-
+          if (!(Test-Path $src)) { Write-Host "compile_commands.json not found at $src"; exit 0 }
           $outDir = Join-Path $env:GITHUB_WORKSPACE $env:TARGET_DIR
           New-Item -ItemType Directory -Force -Path $outDir | Out-Null
           Copy-Item $src (Join-Path $outDir 'compile_commands.json') -Force
-
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git config --global --add safe.directory $env:GITHUB_WORKSPACE
-
           git add "$env:TARGET_DIR/compile_commands.json"
           git diff --cached --quiet
-          if ($LASTEXITCODE -ne 0) {
-            git commit -m "[skip ci] update compile_commands.json ($env:TARGET_DIR)"
-            git push
-          } else {
-            Write-Host "No changes in compile_commands.json; nothing to commit."
-          }
+          if ($LASTEXITCODE -ne 0) { git commit -m "[skip ci] update compile_commands.json ($env:TARGET_DIR)"; git push } else { Write-Host "No changes in compile_commands.json; nothing to commit." }
           exit 0
 
-      # SonarCloud scan using compile_commands.json (org/key read from sonar-project.properties)
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v6
         env:
