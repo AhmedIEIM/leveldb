@@ -1,6 +1,5 @@
 name: LevelDB Main Workflow
 
-
 on:
   push:
     branches: [ main, master, develop, 'releases/**' ]
@@ -18,7 +17,7 @@ jobs:
     runs-on: windows-latest
     defaults:
       run:
-        shell: msys2 {0}   # cmake/ninja/strip/objcopy will come from /mingw64/bin
+        shell: msys2 {0}   # cmake/ninja/strip/objcopy come from /mingw64/bin
 
     env:
       BUILD_DIR: build
@@ -28,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          submodules: true    # leveldb uses third_party; fetch submodules
+          submodules: true    # LevelDB uses third_party/googletest
 
       - name: Install MSYS2 toolchain
         uses: msys2/setup-msys2@v2
@@ -51,6 +50,7 @@ jobs:
           -DLEVELDB_BUILD_TESTS=ON
           -DLEVELDB_BUILD_BENCHMARKS=ON
           -DBUILD_SHARED_LIBS=OFF
+          -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 
       - name: Build
         run: cmake --build "${BUILD_DIR}" --config Release -j2
@@ -70,8 +70,7 @@ jobs:
           # Headers
           [ -d include/leveldb ] && cp -R include/leveldb/* out/full/include/leveldb/ || true
 
-          # Libraries (static or shared)
-          # copy typical names from the build tree (ignore CMakeFiles)
+          # Libraries (static/shared) from the build tree (skip CMakeFiles)
           find "${BUILD_DIR}" -maxdepth 3 -type f -not -path '*/CMakeFiles/*' \
             \( -name 'libleveldb*.a' -o -name 'leveldb*.a' -o -iname 'leveldb*.dll' -o -iname 'leveldb*.lib' \) \
             -exec cp -f {} out/full/lib/ \; || true
@@ -85,7 +84,7 @@ jobs:
           cp -f out/full/lib/* out/stripped/lib/ 2>/dev/null || true
           cp -f out/full/bin/* out/stripped/bin/ 2>/dev/null || true
 
-          # Strip static libs
+          # Strip static libs (remove DWARF)
           find out/stripped/lib -type f -name '*.a' -exec strip -g {} \; || true
 
           # Strip EXE/DLL & create separate .debug files (GNU style)
@@ -110,7 +109,7 @@ jobs:
       - name: Upload artifact (full symbols)
         uses: actions/upload-artifact@v4
         with:
-          name: ghidra-full-windows-msys2-Release
+          name: leveldb-full-windows-msys2-Release
           path: out/full/**
           if-no-files-found: warn
           retention-days: 30
@@ -118,7 +117,7 @@ jobs:
       - name: Upload artifact (stripped)
         uses: actions/upload-artifact@v4
         with:
-          name: ghidra-stripped-windows-msys2-Release
+          name: leveldb-stripped-windows-msys2-Release
           path: out/stripped/**
           if-no-files-found: warn
           retention-days: 30
@@ -126,7 +125,7 @@ jobs:
       - name: Upload artifact (separate .debug symbols)
         uses: actions/upload-artifact@v4
         with:
-          name: ghidra-symbols-windows-msys2-Release
+          name: leveldb-symbols-windows-msys2-Release
           path: out/symbols/**
           if-no-files-found: warn
           retention-days: 30
@@ -165,7 +164,7 @@ jobs:
           }
           exit 0
 
-      # SonarCloud scan using compile_commands.json (no org/key in args; read from sonar-project.properties)
+      # SonarCloud scan using compile_commands.json (org/key read from sonar-project.properties)
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v6
         env:
